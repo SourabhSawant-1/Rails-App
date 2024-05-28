@@ -1,0 +1,8 @@
+<h3>Welcome to Records Page</h3>
+
+<% @records.each do | r |%>
+    <div style="border : 2px solid blue; margin-top: 5px">
+    <p>FILE NUMBER : <p><%= r.index%></p><p>
+    <p>FILE NAME : <p><%= r.fileName%></p><p>
+    </div>
+<% end %>
